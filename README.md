@@ -8,14 +8,14 @@
 
 ## Tabela de Conteúdos
 
-- [O programa]()
-  - [O que é?]()
-  - [Onde ocorre?]()
-  - [O que oferta?]()
-  - [Pré-requisitos]()
-  - [Seleção]()
-  - [Custo]()
-  - [Certificado]()
+- [O programa](#o-programa)
+  - [O que é?](#o-que-é)
+  - [Onde ocorre?](#onde-ocorre)
+  - [O que oferta?](#o-que-oferta)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Seleção](#seleção)
+  - [Custo](#custo)
+  - [Certificado](#certificado)
 
 ## O programa
 
@@ -50,7 +50,7 @@ Em geral:
 
 ### Pré-requisitos
 
-Como dito no início da seção, estes podem variar de acordo com sua cidade, porém, em geral, não há requisitos de idade o formação, o programa destina-se a estudantes de graduação ou curso técnico, independentemente da idade. Em geral, os requisitos técnicos são:
+Como dito no início da seção, estes podem variar de acordo com sua [cidade](#onde-ocorre), porém, em geral, não há requisitos de idade o formação, o programa destina-se a estudantes de *graduação* ou curso *técnico*, independentemente da idade. Em geral, os requisitos técnicos são:
 
 - Paradigma de Orientação a Objetos;
 - Paradigma Estruturado;
