@@ -1,6 +1,6 @@
 # BEPiD Studies
 
-![BEPiD Logo](logo.png)
+![BEPiD Logo](cover.png)
 
 > Some exercises and all kind of stuff produced over a month of preparation for the *Brazilian Education Project for iOS Development(**BEPiD**)*.
 
@@ -16,6 +16,8 @@
   - [Seleção](#seleção)
   - [Custo](#custo)
   - [Certificado](#certificado)
+- [Este projeto]()
+
 
 ## O programa
 
@@ -73,3 +75,14 @@ Não há custo para os alunos.
 ### Certificado
 
 Haverá um certificado do programa aos que concluírem o projeto com sucesso.
+
+## Este projeto
+
+O objetivo deste projeto é trazer:
+
+- Links (de livros, artigos etc.);
+- Textos explicativos;
+- Trechos de código;
+- Exercícios e resoluções
+
+Acerca de cada conteúdo abordado na prova de ingresso no BEPiD.
