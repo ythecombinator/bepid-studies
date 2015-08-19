@@ -73,4 +73,4 @@ São princípios que podem ser provados de forma imediata, baseados nas funçõe
 
 ## Execícios
 
-Após o entendimento, resolver [execícios](execicios.md).
+Após o entendimento, resolver [exercícios](exercicios.md).
