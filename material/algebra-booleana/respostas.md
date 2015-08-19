@@ -3,8 +3,11 @@
 > Exercícios do material sobre [Álgebra Booleana](/material/algebra-booleana).
 
 1. Temos a frase “eu não gosto de acordar cedo e eu sou solteiro”. Esta pode ser dividida em duas expressões:
+
     `A` = Eu gosto de acordar cedo
+
     `B` = Eu sou solteiro
+
     `e` = Conectivo (função lógica)
 
     Escrevendo algebricamente a frase da questão, temos: `/A . B`.
