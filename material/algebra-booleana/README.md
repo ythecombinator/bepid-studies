@@ -64,3 +64,9 @@ São princípios que podem ser provados de forma imediata, baseados nas funçõe
 
   - `A + A . B = A`
   - `A + B . A = A + B`
+
+## Simbologia usada
+
+- `/`: Função **NÃO**
+- `+`: Função **OU**
+- `.`: Função **E**
