@@ -4,7 +4,7 @@
 
 > Some exercises and all kind of stuff produced over a month of preparation for the *Brazilian Education Project for iOS Development(**BEPiD**)*.
 
-> **Important Note**: One of the main goals of this repository is to bring content accessible to all, so unfortunately this one will break the *English-writing-only* rule. By now that's all the English I got for you folks.
+> **Important Note**: One of the main goals of this repository is to bring content accessible to all, so unfortunately this one will break my *English-writing-only* rule for Github. By now that's all the English I got for you folks. I hope it'll soon be translated into English.
 
 ## Tabela de Conteúdos
 
@@ -16,7 +16,7 @@
   - [Seleção](#seleção)
   - [Custo](#custo)
   - [Certificado](#certificado)
-- [Este projeto]()
+- [Este projeto](#este-projeto)
 
 
 ## O programa
@@ -86,3 +86,7 @@ O objetivo deste projeto é trazer:
 - Exercícios e resoluções
 
 Acerca de cada conteúdo abordado na prova de ingresso no BEPiD.
+
+## Links
+
+## Livros
