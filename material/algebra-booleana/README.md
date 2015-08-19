@@ -71,4 +71,6 @@ São princípios que podem ser provados de forma imediata, baseados nas funçõe
 - `+`: Função **OU**
 - `.`: Função **E**
 
-> Após o entendimento, resolver [execícios](execicios).
+## Execícios
+
+Após o entendimento, resolver [execícios](execicios.md).
