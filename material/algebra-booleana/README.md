@@ -70,3 +70,5 @@ São princípios que podem ser provados de forma imediata, baseados nas funçõe
 - `/`: Função **NÃO**
 - `+`: Função **OU**
 - `.`: Função **E**
+
+> Após o entendimento, resolver [execícios](execicios).
