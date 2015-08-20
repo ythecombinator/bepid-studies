@@ -1,5 +1,9 @@
 # Linguagem C
 
+> O C é uma linguagem de programação multi-paradigma (*estruturada*, *imperativa*, *procedural*) nascida na dÈcada de 70. Seu inventor, Dennis Ritchie, implementou-o pela primeira vez rodando o sistema operacional UNIX. O C È derivado de uma outra linguagem: o B, criado por Ken Thompson. O B, por sua vez, veio da linguagem BCPL, inventada por Martin Richards.
+
+> O C È uma linguagem de programação genérica, que pode ser utilizada para a criação de programas diversos.
+
 ## Sintaxe
 
 Consiste de regras detalhadas para cada construção válida. Para que o programa criado seja executado de maneira correta, é necessário seguir a sintaxe própria da linguagem, relacionadas com os tipos, as declarações, as funções e as expressões.
