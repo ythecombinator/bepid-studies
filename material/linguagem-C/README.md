@@ -326,7 +326,7 @@ main(){
   int i=1;
   printf("%d/3 é: %f",i,(float) i/3);
 }
-``´
+```
 
 #### `sizeof`
 
