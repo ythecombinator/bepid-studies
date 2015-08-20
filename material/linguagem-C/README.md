@@ -232,7 +232,7 @@ var = x++; /* O valor de var será 3 e o de x será 2 */
   Ex.: Se a variável `x` tem o valor 12 (00001100), fazendo a operação com 6 (00000110), o resultado, `x ^ 6`, será 10 (00001010).
 
 - `|` (OU inclusivo): Realiza a função lógica *OU* em cada bit correspondende. Assim
-  - `= 1` Se um ou ambos os bits correspondentes nos operandos = 1
+  - `= 1` Se um ou ambos os bits correspondentes nos operandos = 1.
   - `= 0` Se os bits correspondentes forem 0.
 
   Ex.: Se a variável `x` tem o valor 12 (00001100), fazendo a operação com 6 (00000110), o resultado, `x | 6`, será 14 (00001110).
@@ -241,12 +241,104 @@ var = x++; /* O valor de var será 3 e o de x será 2 */
 
 > São usados normalmente com [expressões booleanas](material/algebra-booleana), isto é, expressões que retornam verdadeiro ou falso (1 ou 0), para fins de testes em declarações condicionais.
 
-- `~` (complemento): Atuando em apenas um valor, muda os bits de valor 1 para 0 e vice-versa. Ex.: Se a variável `x` tem o valor 170 (10101010), após `~var`, ela terá 85 (01010101).
+- `&&` (E lógico): Realiza a função lógica *E* entre os operandos. Assim
+  - `= 1` Se ambos os operandos são verdadeiros.
+  - `= 0` Se pelo menos um for falso.
 
-- `<<` (deslocamento à esquerda): Desloca, para a esquerda, os bits do operando esquerdo no valor dado pelo operando direito.
-  > Equivale à multiplicação pela potência de 2 dada por este último.
+  Ex.:
+  ```c
+  main(){
+    a = 2; b = 3; var
+    if(a < b && b > 1)
+      var = 3; /* O valor de var será 3. */
+  }
+  ```
 
-  Ex.: Se a variável `x` tem o valor 3 (00000011), após `x << 2`, ela será 12 (00001100) - ou 3 * 2^2.
+- `||` (OU lógico): Realiza a função lógica *OU* entre os operandos. Assim
+  - `= 1` Se um ou ambos os operandos são verdadeiros.
+  - `= 0` Se ambos os operandos são falsos.
+
+  Ex.:
+  ```c
+  main(){
+    a = 2; b = 3; var;
+    if(a > b || b > 4)
+      var = 3; /* O valor de var será 3. */
+  }
+  ```
+
+- `!` (NÃO lógico): Realiza a função lógica *NÃO* em um operando. Assim
+  - `= 1` Se ele é falso.
+  - `= 0` Se ele é verdadeiro.
+
+  Ex.:
+  ```c
+  main(){
+    a = 0; b;
+    if( !a )
+      b = 3; /* O valor de var será 3. */
+  }
+  ```
+
+#### Condicional/Ternário
+
+Este operador (`?`) substitui declarações tipo `if-then-else`. Tem a forma genérica `var = (condição) ? (verdadeiro) : (falso)`. Ex.:
+
+```c
+main(){
+  x = (var==0) ? 2 : 3;
+}
+```
+
+Equivale a:
+
+```c
+main(){
+  if(var==0)
+    x = 2;
+  else
+    x = 3;
+}
+```
+
+#### de Endereço
+
+> São usados basicamente com ponteiros. Leia mais sobre eles na seção de [Ponteiros]().
+
+- `& (endereço do operando)`
+- `* (valor no endereço do operando)`
+
+#### Vírgula
+
+A vírgula (`,`) pode ser um operador onde as expressões são executadas da esquerda para a direita. Ex.:
+```c
+main(){
+  var = a, a = b; /* Primeiro var assume o valor de a e, depois, a assume o valor de b. */
+}
+```
+
+#### `cast`
+
+É usado para forçar uma expressão a ser de um determinado tipo. Tem a forma genérica `(tipo)expressão`. Ex.:
+
+```c
+main(){
+  int i=1;
+  printf("%d/3 é: %f",i,(float) i/3);
+}
+``´
+
+#### `sizeof`
+
+Retorna o número de bytes ocupados pelo operando, que pode ser uma variável ou um tipo genérico de dado. Tem a forma genérica `sizeof(variável/tipo)`. Ex.:
+
+```c
+main(){
+  sizeof(float); /* Retorna 4, que é o número de bytes de dados tipo float. (= 32 bits) */
+  char str[] = "valor";
+  sizeof (str); /* Retorna 6 (5 caracteres mais o nulo do final da string). */
+}
+```
 
 ### Comentários
 
