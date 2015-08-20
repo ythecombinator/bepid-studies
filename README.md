@@ -17,7 +17,9 @@
   - [Custo](#custo)
   - [Certificado](#certificado)
 - [Este projeto](#este-projeto)
-
+  - [Módulos](#módulos)
+  - [Links](#links)
+  - [Livros](#livros)
 
 ## O programa
 
@@ -54,19 +56,19 @@ Em geral:
 
 Como dito no início da seção, estes podem variar de acordo com sua [cidade](#onde-ocorre), porém, em geral, não há requisitos de idade o formação, o programa destina-se a estudantes de *graduação* ou curso *técnico*, independentemente da idade. Em geral, os requisitos técnicos são:
 
-- Paradigma de Orientação a Objetos;
+- Raciocínio Lógico: Fundamentos de lógica, análise combinatória, arranjos, permutas, etc;
+- Fundamentos de algoritmos e estruturas de dados;
 - Paradigma Estruturado;
 - Linguagem C
+- Paradigma de Orientação a Objetos;
 - Linguagem Java
-- Fundamentos de algoritmos e estruturas de dados;
-- Raciocínio Lógico: Fundamentos de lógica, análise combinatória, arranjos, permutas, etc;
 
 ### Seleção
 
 Em geral, consiste de duas etapas:
 
-1. Uma prova escrita e objetiva com o conteúdo da seção anterior
-2. Entrevista pessoal
+1. Uma prova escrita e objetiva com o conteúdo da seção anterior;
+2. Entrevista pessoal.
 
 ### Custo
 
@@ -87,6 +89,13 @@ O objetivo deste projeto é trazer:
 
 Acerca de cada conteúdo abordado na prova de ingresso no BEPiD.
 
-## Links
+### Módulos
 
-## Livros
+O conteúdo está dividido em módulos - direta ou inderetamente - relacionados a cada um dos conteúdos propostos pra prova. São eles:
+
+- [Álgebra Booleana](material/algebra-booleana)
+- [Linguagem C](material/linguagem-C)
+
+### Links
+
+### Livros
