@@ -4,6 +4,16 @@
 
 > O C È uma linguagem de programação genérica, que pode ser utilizada para a criação de programas diversos.
 
+## Tabela de Conteúdos
+
+- [Sintaxe](#sintaxe)
+  - [Identificadores](#identificadores)
+  - [Tipos](#tipos)
+  - [Operadores](#operadores)
+  - [Comentários](#comentários)
+  - [Instruções](#instruções)
+- [Referências]()
+
 ## Sintaxe
 
 Consiste de regras detalhadas para cada construção válida. Para que o programa criado seja executado de maneira correta, é necessário seguir a sintaxe própria da linguagem, relacionadas com os tipos, as declarações, as funções e as expressões.
