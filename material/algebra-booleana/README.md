@@ -2,6 +2,14 @@
 
 > Em síntese, é um conjunto de estruturas algébricas, operadores e axiomas que são assumidos verdadeiros sem necessidade de prova. Em nosso caso, seu estudo objetiva a manipulação algébrica de preposições lógicas.
 
+## Tabela de Conteúdos
+
+- [Postulados](#postulados)
+- [Propriedades](#propriedades)
+- [Teoremas](#teoremas)
+- [Simbologia usada](#simbologia-usada)
+- [Execícios](#execícios)
+
 ## Postulados
 
 São princípios que podem ser provados de forma imediata, baseados nas funções lógicas básicas (*AND*, *OR* e *NOT*). São eles:
