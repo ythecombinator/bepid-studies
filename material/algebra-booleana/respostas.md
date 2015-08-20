@@ -14,7 +14,7 @@
 
     Como a questão pede a negação de tudo, teríamos: `/(/A . B)`.
 
-    Pelo *Teorema de Morgan*, temos: `/(/A . B) = A + /B`
+    Pelo *Teorema de De Morgan*, temos: `/(/A . B) = A + /B`
 
     Logo, nossa resposta seria: *Eu gosto de acordar cedo ou eu não sou solteiro.* (**Item B**)
 

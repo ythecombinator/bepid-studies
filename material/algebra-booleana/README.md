@@ -55,7 +55,7 @@ São princípios que podem ser provados de forma imediata, baseados nas funçõe
 
 ## Teoremas
 
-- Morgan
+- De Morgan
 
   - `/(A + B) = /A . /B`
   - `/(A . B) = /A + /B`
