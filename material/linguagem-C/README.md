@@ -2,7 +2,7 @@
 
 > O C é uma linguagem de programação multi-paradigma (*estruturada*, *imperativa*, *procedural*), estática e fracamente tipada, nascida na década de 70. Seu inventor, Dennis Ritchie, implementou-o pela primeira vez rodando o sistema operacional UNIX. O C È derivado de uma outra linguagem: o B, criado por Ken Thompson. O B, por sua vez, veio da linguagem BCPL, inventada por Martin Richards.
 
-> O C È uma linguagem de programação genérica, que pode ser utilizada para a criação de programas diversos.
+> É uma linguagem de programação genérica, que pode ser utilizada para a criação de programas diversos.
 
 ## Tabela de Conteúdos
 
@@ -13,6 +13,47 @@
   - [Comentários](#comentários)
   - [Instruções](#instruções)
 - [Referências](#referências)
+
+## Estrutura básica
+
+### Blocos
+
+Um programa em C é basicamente estruturado em blocos de código.
+
+> Blocos nada mais são que conjuntos de instruções, e devem ser delimitados com chaves (`{ ... }`). Um bloco também pode conter outros blocos.
+
+### Instruções
+
+Uma instrução geralmente corresponde a uma ação executada, e deve sempre terminar com ponto-e-vírgula (`;`).
+
+```c
+{
+  printf("Hello World");
+}
+```
+
+## Escopo
+
+> Escopo é o nível em que um dado pode ser acessado.
+
+Em C há dois níveis:
+
+- `local`: Uma variável neste escopo pode ser acessada apenas dentro do bloco onde foram declarada - ou nos seus *sub-blocos* -, mas não fora dele (ou nos blocos que o contêm).
+
+- `global`: Uma variável neste escopo pode ser acessada por qualquer parte do programa.
+
+Ex.:
+
+```c
+ int a; /* Global */
+ {
+   int a; /* Local */
+   int b; /* Local */
+ }
+ {
+   int b; /* Local */
+ }
+```
 
 ## Sintaxe
 
@@ -368,16 +409,6 @@ linhas */
 ```
 
 > Muitos compiladores aceitam `//` como marca de início de comentários, mas essa convenção não está de acordo com a norma ANSI (American National Standards Institute) para a linguagem C. Logo, recomenda-se o uso de `/*` e `*/` para comentários em linha única e blocos.
-
-### Instruções
-
-Cada comando com uma instrução deve ser encerrada com `;`.
-
-```c
-{
-  printf("Hello World");
-}
-```
 
 ## Referências
 
