@@ -32,6 +32,18 @@ Uma instrução geralmente corresponde a uma ação executada, e deve sempre ter
 }
 ```
 
+### Expressões
+
+> Expressões são conjuntos de valores, variáveis, operadores e chamadas de funções que são avaliados ou interpretados para resultar num certo valor, que é chamado o valor da expressão.
+
+Ex.:
+
+- `3 / 3 + 5`: Retorna `6`
+
+- `3 * x + y`: Retorna `3x + y`
+
+- `foo()`: É uma expressão cujo valor é o valor de retorno da função `foo`.
+
 ## Escopo
 
 > Escopo é o nível em que um dado pode ser acessado.
