@@ -322,6 +322,7 @@ O operador de igualdade (`=`) pode ser combinado com outros para simplificar exp
 | `a <<= b`   | `a = a << b`    | Desloc esquerda |
 | `a >>= b`   | `a = a >> b`    | Desloc direita  |
 | `a &= b`    | `a = a & b`     | E               |
+| `a |= b`    | `a = a | b`     | OU              |
 | `a ^= b`    | `a = a ^ b`     | OU exclusivo    |
 
 > Obs.: O outro operador deve sempre ser colocado à esquerda do sinal `=`.
