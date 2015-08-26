@@ -50,7 +50,7 @@ Ex.:
 
 Em C há dois níveis:
 
-- `local`: Uma variável neste escopo pode ser acessada apenas dentro do bloco onde foram declarada - ou nos seus *sub-blocos* -, mas não fora dele (ou nos blocos que o contêm).
+- `local`: Uma variável neste escopo pode ser acessada apenas dentro do bloco onde foi declarada - ou nos seus *sub-blocos* -, mas não fora dele (ou nos blocos que o contêm).
 
 - `global`: Uma variável neste escopo pode ser acessada por qualquer parte do programa.
 
@@ -312,18 +312,18 @@ main(){
 
 O operador de igualdade (`=`) pode ser combinado com outros para simplificar expressões.
 
-| Operador  | Equivalência  |    Descrição    |
-|-----------|---------------|-----------------|
-| a *= b    | a = a * b     | Multiplicação   |
-| a /= b    | a = a / b     | Divisão         |
-| a %= b    | a = a % b     | Resto           |
-| a += b    | a = a + b     | Adição          |
-| a -= b    | a = a - b     | Subtração       |
-| a <<= b   | a = a << b    | Desloc esquerda |
-| a >>= b   | a = a >> b    | Desloc direita  |
-| a &= b    | a = a & b     | E               |
-| a ^= b    | a = a ^ b     | OU exclusivo    |
-| a |= b    | a = a | b     | OU inclusivo    |
+| Operador    | Equivalência    |    Descrição    |
+|-------------|-----------------|-----------------|
+| `a *= b`    | `a = a * b`     | Multiplicação   |
+| `a /= b`    | `a = a / b`     | Divisão         |
+| `a %= b`    | `a = a % b`     | Resto           |
+| `a += b`    | `a = a + b`     | Adição          |
+| `a -= b`    | `a = a - b`     | Subtração       |
+| `a <<= b`   | `a = a << b`    | Desloc esquerda |
+| `a >>= b`   | `a = a >> b`    | Desloc direita  |
+| `a &= b`    | `a = a & b`     | E               |
+| `a |= b`    | `a = a | b`     | OU              |
+| `a ^= b`    | `a = a ^ b`     | OU exclusivo    |
 
 > Obs.: O outro operador deve sempre ser colocado à esquerda do sinal `=`.
 
@@ -370,17 +370,17 @@ var = x++; /* O valor de var será 3 e o de x será 2 */
 
   Ex.: Se a variável `x` tem o valor 12 (00001100) e fazendo a operação com 6 (00000110), o resultado, de `x & 6`, será 4 (00000100).
 
-- `^` (OU exclusivo): Realiza a função lógica *XOU* em cada bit correspondende. Assim
-  - `= 1` Se os bits correspondentes forem diferentes.
-  - `= 0` Se ambos os bits correspondentes forem iguais.
-
-  Ex.: Se a variável `x` tem o valor 12 (00001100), fazendo a operação com 6 (00000110), o resultado, `x ^ 6`, será 10 (00001010).
-
-- `|` (OU inclusivo): Realiza a função lógica *OU* em cada bit correspondende. Assim
+- `|` (OU): Realiza a função lógica *OU* em cada bit correspondende. Assim
   - `= 1` Se um ou ambos os bits correspondentes nos operandos = 1.
   - `= 0` Se os bits correspondentes forem 0.
 
   Ex.: Se a variável `x` tem o valor 12 (00001100), fazendo a operação com 6 (00000110), o resultado, `x | 6`, será 14 (00001110).
+
+- `^` (OU exclusivo): Realiza a função lógica *XOR* em cada bit correspondende. Assim
+  - `= 1` Se os bits correspondentes forem diferentes.
+  - `= 0` Se ambos os bits correspondentes forem iguais.
+
+  Ex.: Se a variável `x` tem o valor 12 (00001100), fazendo a operação com 6 (00000110), o resultado, `x ^ 6`, será 10 (00001010).
 
 #### Lógicos
 
@@ -427,7 +427,7 @@ var = x++; /* O valor de var será 3 e o de x será 2 */
 
 #### Condicional/Ternário
 
-Este operador (`?`) substitui declarações tipo `if-then-else`. Tem a forma genérica `var = (condição) ? (verdadeiro) : (falso)`. Ex.:
+Este operador (`?`) substitui declarações tipo `if-then-else`. Tem a forma genérica `var = (condição) ? (expressão caso seja verdadeiro) : (expressão caso seja falso)`. Ex.:
 
 ```c
 main(){
@@ -475,7 +475,7 @@ main(){
 
 #### `sizeof`
 
-Retorna o número de bytes ocupados pelo operando, que pode ser uma variável ou um tipo genérico de dado. Tem a forma genérica `sizeof(variável/tipo)`. Ex.:
+Retorna o número de **bytes** (*!= bits*) ocupados pelo operando, que pode ser uma variável ou um tipo genérico de dado. Tem a forma genérica `sizeof(variável/tipo)`. Ex.:
 
 ```c
 main(){
