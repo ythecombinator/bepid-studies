@@ -42,8 +42,15 @@ E isso são bytes: **agrupamentos de 8 bits**.
 
     Ex.: Na frase *"O mundo é um lugar ruim."*, teríamos:
 
-    | O  | m   | u   | n   | d   | o   | ... |
-    | 79 | 109 | 117 | 110 | 100 | 111 | ... |
+    | Caractere | Representação decimal(`0-255`) | Representação binária(bytes) |
+    |-----------|--------------------------------|------------------------------|
+    | O         | 79                             | 01001111                     |
+    | m         | 109                            | 01101101                     |
+    | u         | 117                            | 01110101                     |
+    | n         | 110                            | 01101110                     |
+    | d         | 100                            | 01100100                     |
+    | o         | 111                            | 01101111                     |
+    | ...       | ...                            | ...                          |
 
 # Representação
 
@@ -53,6 +60,8 @@ Ex.: *Kb* representa **kilobits**, e *KB* indica **kilobytes**.
 
 # Equivalência
 
+| Representações    | Equivalência      |
+|-------------------|-------------------|
 | `1` bit           | `0` ou `1`        |
 | `8` bits          | `1` byte          |
 | `1024` bytes      | `1` Kilobyte (KB) |
