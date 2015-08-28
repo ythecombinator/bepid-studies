@@ -35,6 +35,40 @@ O sistema hexadecimal possui 16 símbolos, dos quais os dez primeiros são os me
 
 > `Decimal` -> `Outros`
 
+Consiste em fazer sucessivas divisões pelo número número da base a qual se almeja chegar. Ex.:
+
+- Converter 125, na base 10, para a base 2.
+
+  ![Ex.1](divisoes1.png)
+
+  Assim, 125(10) = 1111101(2)
+
+- Converter 538, na base 10, para a base 16.
+
+  ![Ex.2](divisoes2.png)
+
+  Assim, 538(10) = 21A(2)
+
 ### Lei de Formação
 
 > `Outros` -> `Decimal`
+
+Consiste em decompor um número da seguinte forma:
+
+![Forma Geral](forma-geral-lei-de-formacao)
+
+onde:
+
+an = algarismo
+b  = base do número
+n  = qtd. de algarismo - 1
+
+Ex.:
+
+- Converter 1101, da base 2, para a base 10.
+
+  ![Ex.1](forma-geral1)
+
+- Converter 3AF7, da base 16, para a base 10.
+
+  ![Ex.2](forma-geral2)
