@@ -35,5 +35,6 @@ O sistema hexadecimal possui 16 símbolos, dos quais os dez primeiros são os me
 
 > `Decimal` -> `Outros`
 
+### Lei de Formação
 
-
+> `Outros` -> `Decimal`
