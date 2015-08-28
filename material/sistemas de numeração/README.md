@@ -59,9 +59,11 @@ Consiste em decompor um número da seguinte forma:
 
 onde:
 
-an = algarismo
-b  = base do número
-n  = qtd. de algarismo - 1
+`an` = algarismo
+
+`b`  = base do número
+
+`n`  = qtd. de algarismo - 1
 
 Ex.:
 
@@ -72,3 +74,4 @@ Ex.:
 - Converter 3AF7, da base 16, para a base 10.
 
   ![Ex.2](img/forma-geral2.png)
+
