@@ -6,8 +6,8 @@
 
 ## Tabela de Conteúdos
 
-- [Estrutura Basica](estrutura/)
-- [Escopo](escopo/)
-- [Bibliotecas](bibliotecas/)
-- [Sintaxe](sintaxe/)
-- [Referências](referencias/)
+- [Estrutura Basica](estrutura-basica.md)
+- [Escopo](escopo.md)
+- [Bibliotecas](bibliotecas.md)
+- [Sintaxe](sintaxe.md)
+- [Referências](referencias.md)
