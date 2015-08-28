@@ -39,13 +39,13 @@ Consiste em fazer sucessivas divisões pelo número número da base a qual se al
 
 - Converter 125, na base 10, para a base 2.
 
-  ![Ex.1](divisoes1.png)
+  ![Ex.1](img/divisoes1.png)
 
   Assim, 125(10) = 1111101(2)
 
 - Converter 538, na base 10, para a base 16.
 
-  ![Ex.2](divisoes2.png)
+  ![Ex.2](img/divisoes2.png)
 
   Assim, 538(10) = 21A(2)
 
@@ -55,7 +55,7 @@ Consiste em fazer sucessivas divisões pelo número número da base a qual se al
 
 Consiste em decompor um número da seguinte forma:
 
-![Forma Geral](forma-geral-lei-de-formacao)
+![Forma Geral](img/forma-geral-lei-de-formacao.png)
 
 onde:
 
@@ -67,8 +67,8 @@ Ex.:
 
 - Converter 1101, da base 2, para a base 10.
 
-  ![Ex.1](forma-geral1)
+  ![Ex.1](img/forma-geral1.png)
 
 - Converter 3AF7, da base 16, para a base 10.
 
-  ![Ex.2](forma-geral2)
+  ![Ex.2](img/forma-geral2.png)
