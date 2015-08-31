@@ -6,6 +6,7 @@
 /* Função principal */
 int main()
 {
-    printf("Se a vida e um deserto; a minha e o Saara. \n"); /* Mensagem a ser impressa */
-    return 0;
+  /* Mensagem a ser impressa */
+  printf("Se a vida e um deserto, a minha e o Saara. \n");
+  return 0;
 }
