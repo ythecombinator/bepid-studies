@@ -12,12 +12,10 @@ int main()
   printf("Qual o valor? \n");
   scanf("%i", &num);
 
-  /* Se um número é par, ele é divisível por 2; caso contrário, ele é ímpar */
-  if (num % 2 == 0)
-    printf("Par \n");
-  else
-    printf("Impar \n");
+  /* Se um número é par, ele é divisível por 2; caso contrário, ele é ímpar
+  (Usando o operador ternário) */
+
+  num % 2 == 0 ? printf("Par \n") : printf ("Impar \n");
 
   return 0;
 }
-
