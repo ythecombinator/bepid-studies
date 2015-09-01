@@ -1,4 +1,4 @@
-/* Exemplo de programa que pede dois número ao usuário e soma eles */
+/* Exemplo de programa que pede dois números ao usuário e soma eles */
 
 /* Incluindo a biblioteca padrão de funções de I/O */
 #include <stdio.h>
