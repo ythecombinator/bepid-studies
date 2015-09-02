@@ -6,16 +6,11 @@
 /* Função para calcular fatorial */
 long calcFatorial(int n){
 
-  /* Contador */
-  int i;
-  /* Varíavel do tipo long que guardará o resultado */
-  long resultado = 1;
-  /* Laço que multiplica o resultado pelo valor do contador
-  (incrementado enquanto este for menor que o número que o parametro da função) */
-  for (i = 1; i <= n; i++)
-    resultado = resultado * i;
-
-  return resultado;
+  /* Aqui nos usamos da recursividade para, ao final de cada execução, até que n seja 0, chamar a função passando n-1 como parametro*/
+  if (n == 0)
+    return 1;
+  else
+    return(n * calcFatorial(n-1));
 }
 
 /* Função principal */
