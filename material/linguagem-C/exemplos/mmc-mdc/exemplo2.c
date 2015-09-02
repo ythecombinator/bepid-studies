@@ -1,4 +1,4 @@
-/* Exemplo de programa para encontrar o MMC e o MDC de um número (sem recusrividade) */
+/* Exemplo de programa para encontrar o MMC e o MDC de um número (com recursividade) */
 
 /* Incluindo a biblioteca padrão de funções de I/O */
 #include <stdio.h>
@@ -6,30 +6,12 @@
 /* Função para caclular o MDC */
 long maximo(long x, long y) {
 
-  /* O MDC de um número e zero será sempre zero */
-  if (x == 0)
-    return y;
-
-  /* Realiza subtrações sucessivas, seguindo o algoritmo
-        enquanto a<>b faca
-                    se a>b então
-                           a<-a-b
-                    senao
-                            b<-b-a
-                    fimse
-        fimenquanto
-        mdc<-a */
-  while (x != y) {
-    if (x > y)
-      x = x - y;
-    else
-      y = y - x;
-  }
-
-  return x;
+  if (y == 0)
+    return x;
+  else
+    return maximo(y, x % y);
 }
 
-/* Função Principal*/
 int main() {
 
   /* Declarando as variáveis pra ambos os números e para os reultados */
