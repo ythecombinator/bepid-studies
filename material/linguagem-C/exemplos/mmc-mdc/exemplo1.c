@@ -1,8 +1,9 @@
-/* Exemplo de programa para encontrar o MMC e o MDC de um número */
+/* Exemplo de programa para encontrar o MMC e o MDC de um número (sem recusrividade) */
 
 /*  */
 #include <stdio.h>
 
+/* Função para caclular o MDC */
 long maximo(long x, long y) {
 
   /* O MDC de um número e zero será sempre zero */
@@ -28,6 +29,7 @@ long maximo(long x, long y) {
   return x;
 }
 
+/* Função Principal*/
 int main() {
 
   /* Declarando as variáveis pra ambos os números e para os reultados */
