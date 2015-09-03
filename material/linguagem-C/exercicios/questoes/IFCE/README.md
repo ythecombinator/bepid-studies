@@ -1,6 +1,6 @@
 # Linguagem C - Exercícios - Prova BEPiD
 
-> Exercícios do material sobre [Linguagem C](/material/linguagem-C).
+> Exercícios do material sobre [Linguagem C](/material/linguagem-C) retirados do exame de seleção 2014 do BEPiD IFCE.
 
 1. (BEPiD IFCE - 2014) As afirmações abaixo são relativas à linguagem C.
 
