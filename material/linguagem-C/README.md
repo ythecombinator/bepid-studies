@@ -6,8 +6,12 @@
 
 ## Tabela de Conteúdos
 
-- [Estrutura Basica](estrutura-basica.md)
-- [Escopo](escopo.md)
-- [Bibliotecas](bibliotecas.md)
-- [Sintaxe](sintaxe.md)
-- [Referências](referencias.md)
+- [Estrutura Basica](conteudo/estrutura-basica.md)
+- [Escopo](conteudo/escopo.md)
+- [Bibliotecas](conteudo/bibliotecas.md)
+- [Variáveis](conteudo/variaveis.md)
+- [Identificadores](conteudo/identificadores.md)
+- [Tipos](conteudo/tipos.md)
+- [Operadores](conteudo/operadores.md)
+- [Comentários](conteudo/comentarios.md)
+- [Referências](conteudo/referencias.md)
