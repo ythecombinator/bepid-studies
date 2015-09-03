@@ -1,4 +1,4 @@
-# Álgebra Booleana - Exercícios
+# Linguagem C - Exercícios - Prova BEPiD
 
 > Exercícios do material sobre [Linguagem C](/material/linguagem-C).
 
