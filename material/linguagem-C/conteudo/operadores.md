@@ -204,8 +204,8 @@ main(){
 
 > São usados basicamente com ponteiros. Leia mais sobre eles na seção de [Ponteiros]().
 
-- `& (endereço do operando)`
-- `* (valor no endereço do operando)`
+- `*`: Retorna o valor da variável que está localizada no ponteiro.
+- `&`: Retorna o endereço de memória que está localizado o valor da variavel contida no ponteiro
 
 ### Vírgula
 
