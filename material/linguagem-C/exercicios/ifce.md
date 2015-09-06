@@ -138,3 +138,50 @@
   e) 30 - 40 - 50 -
 
 ## Resoluções
+
+1. Temos as seguintes afirmações:
+
+  1. Se `p` é um ponteiro para `x`, o comando `(*p)++` incrementa `x`.
+
+    Considere o seguinte trecho de código:
+
+    ```c
+    /* Inicializando x como sendo um inteiro de valor 10 (poderia ser de qualquer outro tipo/valor) */
+    int x = 10;
+    /* Declarando um ponteiro (de tipo igual a x) */
+    int *p;
+    /* Dizendo para onde p deve apontar */
+    p = &x;
+    /* Imprimindo o valor indicado por p (x) */
+    printf("*p %d \n",*p);
+    /* Imprimindo o valor de p (endereço de x) */
+    printf("p = %d \n",p);
+    /* Realizando a operação em questão */
+    (*p)++;
+    /* Imprimindo o valor indicado por p (x) */
+    printf("(*p)++ = %d \n",*p);
+    /* Imprimindo o valor de p (endereço de x) */
+    printf("p = %d \n",p);
+    /* Pode-se perceber que o valor agora é 11, pois foi incrementado o valor indicado por p e não o endereço para onde este aponta. */
+    ```
+
+  2. O operador `&` retorna o endereço da variável que a ele sucede.
+
+    Como visto na seção sobre [operadores de endereço](material/linguagem-C/conteudo/operadores.md#de-endereço), o operador unário `&` retorna o endereço de memória que está localizado o valor da variavel contida no ponteiro - enquanto o operador `*` retorna o valor da variável que está localizada no ponteiro.
+
+  3. `p[2]` equivale a `*(p+2)`.
+
+    Ao manipularmos matrizes através de ponteiros, considere o seguinte trecho de código:
+
+    ```c
+    /* Declarando uma matriz de inteiros com 10 posições */
+    int a[10];
+    /* Declarando um ponteiro para a */
+    int *pa;
+    /* Passa o endereço inicial do vetor a para o ponteiro pa - é a mesma coisa de pa=a */
+    pa=&a[0];
+    /* Se pa aponta para um elemento particular de um vetor a, então por definição pa+1 aponta para o próximo elemento, e, em geral, pa-i  aponta para i elementos antes de pa e pa+i para i elementos depois.
+    Se pa aponta para a[0] então: *(pa+1) aponta para a[1] e *(a+2) aponta para a[2]. */
+    ```
+
+  Logo, nossa resposta seria: *Todas as afirmaçõe estão certas.* (**Item E**)
