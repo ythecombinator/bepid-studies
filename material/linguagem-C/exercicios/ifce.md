@@ -243,7 +243,7 @@
   ```
   Logo, nossa resposta seria: **Item E**
 
-  4. Considere o trecho comentado:
+4. Considere o trecho comentado:
 
   ```c
   /* Função principal */
@@ -270,7 +270,7 @@
   ```
   Logo, nossa resposta seria: **Item C**
 
-  5. Considere o trecho comentado:
+5. Considere o trecho comentado:
 
   ```c
   /* Função principal */
