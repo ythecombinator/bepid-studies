@@ -185,3 +185,111 @@
     ```
 
   Logo, nossa resposta seria: *Todas as afirmaçõe estão certas.* (**Item E**)
+
+2. Considere o trecho comentado:
+
+  ```c
+  int main(void){
+    /* Declarando dois inteiros, A e B */
+    int a = 3;
+    int b = 2;
+    /* Imprimindo os valores: 3 2 */
+    printf("%d %d \n", a, b);
+    /* Performa a operação a XOR b em a
+    a = 3 decimal = 11 binário
+    b = 2 decimal = 10 binário
+    a ^ b = 11 ^ 10 = 01 = 1 decimal */
+    a = a ^ b;
+    /* Performa a operação b XOR a em b
+    b = 2 decimal = 10 binário
+    a = 1 decimal = 01 binário
+    b ^ a = 10 ^ 01 = 11 = 3 decimal */
+    b = b ^ a;
+    /* Performa a operação a XOR b em a
+    a = 1 decimal = 01 binário
+    b = 2 decimal = 11 binário
+    a ^ b = 01 ^ 11 = 10 = 2 decimal */
+    a = a ^ b;
+    /* Imprimindo os valores: 2 3 */
+    printf("%d %d \n", a, b);
+    return 0;
+  }
+  ```
+  Logo, nossa resposta seria: **Item C**
+
+3. Considere o trecho comentado:
+
+  ```c
+    int func(){
+    /* Declaramos uma variável inteira e estática, ou seja, que é visível apenas nessa função
+    (Não confundir com variável local, pois estas são criadas e destruídas a cada chamada de função, enquanto as estáticas mantém os dados entre chamadas de funções). */
+    static int x = 2;
+    /* Atribuindo o valor de x + 5 a x (equivale a x = x + 5) */
+    x += 5;
+    /* Retorna o valor de x */
+    return x;
+  }
+
+  /* Função principal */
+  int main(){
+    /* Chama a função (alterando o valor para 7) e imprime o retorno*/
+    printf ("%d", func());
+    /* Chama a função (alterando o valor para 12) e imprime o retorno*/
+    printf ("%d", func());
+    /* Chama a função (alterando o valor para 17) e imprime o retorno*/
+    printf ("%d", func());
+    return 0;
+  }
+  ```
+  Logo, nossa resposta seria: **Item E**
+
+  4. Considere o trecho comentado:
+
+  ```c
+  /* Função principal */
+  int main(){
+    /* Declarando 3 inteiros */
+    int n = 28, d = 8, q;
+    /* Laço do tipo for, onde:
+    Início: q=0
+    Condição: n >= d
+    Incremento/Decremento: n = n-d */
+    for (q = 0; n >= d; n = n - d) {
+      /* Incrementa q */
+      q++;
+      /* Imprime q (para termos ideia das execuções) */
+      printf ("%i \n", q);
+    }
+    /* Execuções:
+    1: n = 20; q = 1
+    2: n = 12; q = 2
+    3: n = 4; q = 3
+    4: Não ocorre, pois n (=4) não satisfaz mais a condição do laço (>= d) */
+  return 0;
+  }
+  ```
+  Logo, nossa resposta seria: **Item C**
+
+  5. Considere o trecho comentado:
+
+  ```c
+  /* Função principal */
+  int main(int argc, const char * argv[]){
+    /* Inicializando um vetor de inteiros */
+    int vet[5] = {10, 20, 30, 40, 50};
+    /* Inicializando um variavel inteira */
+    int i = 1;
+    /* Laço do tipo do...while */
+    do
+      /* Incrementa i e usa para definir a posição do elemento a ser impresso */
+      printf("%d - ", vet[++i]);
+    /* Enquanto i < 4 */
+    while (i<4);
+    /* Execuções:
+    1: i = 2 (3 elemento)
+    2: i = 3 (4 elemento)
+    3: i = 4 (5 elemento) - só ocorre por causa do do...while; se fosse while teria parado na segunda execução */
+    return 0;
+  }
+  ```
+  Logo, nossa resposta seria: **Item E**
