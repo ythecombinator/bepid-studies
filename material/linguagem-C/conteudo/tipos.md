@@ -24,10 +24,6 @@ Este tipo serve para indicar que um resultado não tem um tipo definido.
 
 > Uma das aplicações deste tipo em C é criar um tipo vazio que pode posteriormente ser modificado para um dos tipos anteriores.
 
-### `bool`
-
-Serve para indicar true (verdadeiro) ou false (falso), utiliza 1 byte.
-
 ### Modificadores
 
 Modificadores podem ser aplicados a estes tipos. Estes modificadores são palavras que alteram o tamanho do conjunto de valores que o tipo pode representar. Podem ser:
