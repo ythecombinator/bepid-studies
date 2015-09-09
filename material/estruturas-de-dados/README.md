@@ -6,6 +6,7 @@
 
 ## Tabela de Conteúdos
 
+- [Conjuntos](conteudo/conjuntos.md)
+- [Pilhas](conteudo/pilhas.md)
 - [Filas](conteudo/filas.md)
-
 - [Referências](conteudo/referencias.md)
