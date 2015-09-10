@@ -30,9 +30,17 @@ topo[S] ← topo[S] + 1
 S[topo[S]] ← x
 ```
 
-#### Desenfileirar (dequeue)
+#### Remover/Pop
 
-Oposto a anterior, consiste em remover um objeto na pilha.
+Oposto a anterior, consiste em remover um objeto na pilha. Ex.:
+
+**POP(S, x)**
+```pascal
+if isEmpty(S)
+  then error "Fila vazia: underflow."
+  else topo[S] ← topo[S] - 1
+    return S[topo[S] ]
+ ```
 
 #### Mostrar a pilha
 
@@ -40,8 +48,22 @@ Exibir elementos presentes na pilha.
 
 #### isEmpty
 
-Verificar se a pilha está vazia
+Verificar se a pilha está vazia. Ex.:
+
+**isEmpty(S)**
+```pascal
+if topo[S] = 0
+  then return true
+  else return false
+ ```
 
 #### isFull
 
-Verificar se a pilha está cheia.
+Verificar se a pilha está cheia. Ex.:
+
+**isFull(S)**
+```pascal
+if topo[S] = 0
+  then return false
+  else return true
+ ```
