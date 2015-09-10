@@ -26,8 +26,8 @@ Consiste em colocar, ou inserir um objeto na pilha. Ex.:
 
 *PUSH(S, x)*
 ```pascal
-topo[S] ← topo[S] + 1
-S[topo[S]] ← x
+topo[S] ← topo[S] + 1 // Aumenta uma posição no topo
+S[topo[S]] ← x // Atribui o valor inserido nessa posição
 ```
 
 #### Remover/Pop
@@ -36,10 +36,10 @@ Oposto a anterior, consiste em remover um objeto na pilha. Ex.:
 
 *POP(S)*
 ```pascal
-if isEmpty(S)
-  then error "Fila vazia: underflow."
-  else topo[S] ← topo[S] - 1
-    return S[topo[S] ]
+if isEmpty(S) // Se a fila está vazia,
+  then error "Fila vazia: underflow." // Informa que a fila está cheia
+  else topo[S] ← topo[S] - 1 // Remove 1 do topo
+    return S[topo[S]]
  ```
 
 #### isEmpty
