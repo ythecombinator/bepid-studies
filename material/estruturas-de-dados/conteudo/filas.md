@@ -20,22 +20,52 @@ A implementação de filas pode ser realizada através de *vetores* ou *listas e
 
 Consiste em informar a capacidade, no caso de implementação sequencial.
 
-#### Enfileirar (enqueue)
+#### Enfileirar/Enqueue
 
-Consiste em colocar, ou inserir um objeto na fila.
+Consiste em colocar, ou inserir um objeto na fila. Ex.:
 
-#### Desenfileirar (dequeue)
+*ENQUEUE(Q, x)*
+```pascal
+Q[fim[Q]] ← x // Insere x no final
+if fim[Q] = comprimento[Q] // Se a fila tem só uma elemento,
+  then fim[Q] ← 1 // // O fim passa para a posição 1
+  else fim[Q] ← fim[Q] + 1 // Caso contrário, o fim será a próxima posição
+```
 
-Oposto a anterior, consiste em remover um objeto na fila.
+#### Desenfileirar/Dequeue
+
+Oposto a anterior, consiste em remover um objeto na fila. Ex.:
+
+*DEQUEUE(Q)*
+```pascal
+x ← Q[inicio[Q]] // O ponteiro recebe o elemento do inicio
+if inicio[Q] = comprimento[Q] // Se a fila tem só uma elemento,
+  then inicio[Q] ← 1 // O inicio passa para a posição 1
+  else inicio[Q] ← inicio[Q] + 1 // Caso contrário, o inicio será a próxima posição
+```
+
+#### isEmpty
+
+Verificar se a fila está vazia. Ex.:
+
+*isEmpty(Q)*
+```pascal
+if fim[Q] = 0
+  then return true
+  else return false
+ ```
+
+#### isFull
+
+Verificar se a fila está cheia. Ex.:
+
+*isFull(Q)*
+```pascal
+if fim[Q] = 0
+  then return false
+  else return true
+ ```
 
 #### Mostrar a fila
 
 Exibir elementos presentes na fila.
-
-#### isEmpty
-
-Verificar se a fila está vazia
-
-#### isFull
-
-Verificar se a fila está cheia.

@@ -34,7 +34,7 @@ S[topo[S]] ← x
 
 Oposto a anterior, consiste em remover um objeto na pilha. Ex.:
 
-*POP(S, x)*
+*POP(S)*
 ```pascal
 if isEmpty(S)
   then error "Fila vazia: underflow."
