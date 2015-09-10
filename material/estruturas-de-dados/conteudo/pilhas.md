@@ -24,7 +24,7 @@ Consiste em informar a capacidade, no caso de implementação sequencial.
 
 Consiste em colocar, ou inserir um objeto na pilha. Ex.:
 
-**PUSH(S, x)**
+*PUSH(S, x)*
 ```pascal
 topo[S] ← topo[S] + 1
 S[topo[S]] ← x
@@ -34,7 +34,7 @@ S[topo[S]] ← x
 
 Oposto a anterior, consiste em remover um objeto na pilha. Ex.:
 
-**POP(S, x)**
+*POP(S, x)*
 ```pascal
 if isEmpty(S)
   then error "Fila vazia: underflow."
@@ -42,15 +42,11 @@ if isEmpty(S)
     return S[topo[S] ]
  ```
 
-#### Mostrar a pilha
-
-Exibir elementos presentes na pilha.
-
 #### isEmpty
 
 Verificar se a pilha está vazia. Ex.:
 
-**isEmpty(S)**
+*isEmpty(S)*
 ```pascal
 if topo[S] = 0
   then return true
@@ -61,9 +57,13 @@ if topo[S] = 0
 
 Verificar se a pilha está cheia. Ex.:
 
-**isFull(S)**
+*isFull(S)*
 ```pascal
 if topo[S] = 0
   then return false
   else return true
  ```
+
+#### Mostrar a pilha
+
+Exibir elementos presentes na pilha. Ex.:
