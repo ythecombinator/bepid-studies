@@ -1,4 +1,4 @@
-## Filas
+## Filas (Queues)
 
 > Em resumo, uma fila é uma estrutura de dados que admite remoção de elementos e inserção de novos elementos, onde adiciona-se itens no fim e remove-se do início.
 
