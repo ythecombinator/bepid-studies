@@ -49,7 +49,7 @@ Consiste em encontrar o primeiro elemento com a chave `k` na lista `L` e retorna
 x ← início[L] // x recebe a posição inicial
 while x ≠ NIL e chave[x] ≠ k // Enquanto não atingir o final e nem o valor desejado
   do x ← próximo[x] // x recebe a próxima posição
-return x // Retorna o ponteiro pra chave desejada
+return x // Retorna o resultado
 ```
 
 #### Inserção/Insert
@@ -59,9 +59,9 @@ Consiste em inserir no início da lista o elemento apontado por `x` - com seu va
 *INSERT(L, x)*
 ```pascal
 proximo[x] ← início[L] // O elemento seguinte a x recebe a posição inicial
-if inicio[L] ≠ NIL // Se for uma lista circular
-  then anterior[inicio[L]] ← x // Então o fim recebe x
-início[L] ← x // Início recebe x
+if inicio[L] ≠ NIL // Se o início apontava para algo
+  then anterior[inicio[L]] ← x // Então o anterior do elemento para onde início apontava, passa a apontar para um novo elemento
+início[L] ← x // Início aponta para x
 anterior[x] ← NIL // Indica que x é início
 ```
 
@@ -72,8 +72,8 @@ Consiste em remover o elemento apontado por `x` - com seu valor de chave `k` já
 *DELETE(L, x)*
 ```pascal
 if anterior[x] ≠ NIL // Se não for o primeiro,
-  then próximo[anterior[x]] ← [próximo[x]] // O atual recebe o próximo
+  then próximo[anterior[x]] ← [próximo[x]] // Atualiza os ponteiros
   else início[L] ← próximo[x] // Caso contrário, o início passa a ser o próximo.
 if próximo[x] ≠ NIL // Se não for o último,
-  then anterior[próximo[x]] ← [anterior[x]] // O atual recebe o anterior
+  then anterior[próximo[x]] ← [anterior[x]] // Atualiza os ponteiros
 ```
