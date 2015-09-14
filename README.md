@@ -98,4 +98,7 @@ O conteúdo está dividido em módulos - direta ou inderetamente - relacionados 
 
 ### Links
 
+- [javatests](https://github.com/abysmum/javatests) by [@abysmum](https://github.com/abysmum).
+  Repo containing some basic tests - mostly around data structures - done with Java which aim a better preparation for the BEPiD exam.
+
 ### Livros
