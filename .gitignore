@@ -1,5 +1,10 @@
-# Executables
+# C
 
 *.exe
 *.out
 *.app
+
+# Java
+
+*.class
+*.jar
