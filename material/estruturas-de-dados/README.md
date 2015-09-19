@@ -10,4 +10,4 @@
 - [Pilhas](conteudo/pilhas.md)
 - [Filas](conteudo/filas.md)
 - [Referências](conteudo/referencias.md)
-- [Árvores](conteudo/arvores.mc)
+- [Árvores](conteudo/arvores.md)
