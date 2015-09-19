@@ -8,3 +8,8 @@
 
 *.class
 *.jar
+
+# Some tests
+
+*Test.java
+*test.c
