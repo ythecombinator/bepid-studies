@@ -47,7 +47,7 @@ Consiste em fazer sucessivas divisões pelo número número da base a qual se al
 
   ![Ex.2](img/divisoes2.png)
 
-  Assim, 538(10) = 21A(2)
+  Assim, 538(10) = 21A(16)
 
 ### Lei de Formação
 
